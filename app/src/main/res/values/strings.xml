@@ -1,4 +1,24 @@
 <resources>
     <string name="app_name">FaceMaker</string>
     <string name="action_settings">Settings</string>
+
+    //http://developer.android.com/guide/topics/ui/controls/spinner.html
+    <string-array name="hair_array">
+        <item>Crew Cut</item>
+        <item>Mohawk</item>
+        <item>Long</item>
+    </string-array>
+
+    <string-array name="eyes_array">
+        <item>Surprised</item>
+        <item>Annoyed</item>
+        <item>Angry</item>
+    </string-array>
+
+    <string-array name="nose_array">
+        <item>Wide</item>
+        <item>Thin</item>
+        <item>Voldemort</item>
+    </string-array>
+
 </resources>

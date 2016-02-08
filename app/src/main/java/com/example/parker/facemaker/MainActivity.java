@@ -86,9 +86,9 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
         hairSpin = (Spinner)findViewById(R.id.hairSpinner);
         hairSpin.setAdapter((SpinnerAdapter) this);
 
-       // hairOptions = getResources().getStringArray(R.array.hair_select);
-       // eyesOptions = getResources().getStringArray(R.array.eyes_select);
-       // noseOptions = getResources().getStringArray(R.array.nose_select);
+        hairOptions = getResources().getStringArray(R.array.hair_array);
+        eyesOptions = getResources().getStringArray(R.array.eyes_array);
+        noseOptions = getResources().getStringArray(R.array.nose_array);
     }
 
     @Override
